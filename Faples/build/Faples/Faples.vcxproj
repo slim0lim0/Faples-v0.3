@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\FaplesClient\Character.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Foothold.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Obj.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Packet.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Physics.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Player.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Portal.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Scenery.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Game.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\InputHandler.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Layer.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Map.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Session.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Sound.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Sprite.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Text.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\TextureManager.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Tile.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Time.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\UI.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\UIControl.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\UIGroup.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\UILayer.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Utility.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\View.hpp" />
+    <ClInclude Include="..\..\src\FaplesClient\Window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\FaplesClient\Character.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Foothold.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Obj.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Packet.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Physics.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Player.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Portal.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Scenery.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Game.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\InputHandler.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Layer.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\main.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Map.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Session.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Sound.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Sprite.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Text.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\TextureManager.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Tile.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Time.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\UI.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\UIControl.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\UIGroup.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\UILayer.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\View.cpp" />
+    <ClCompile Include="..\..\src\FaplesClient\Window.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7ED9F268-F059-4DC9-8AC4-D4CA27BB672F}</ProjectGuid>
+    <RootNamespace>Faples</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)/../src/;$(SolutionDir)/../sdk/include/;$(SolutionDir)/../sdk/include/SDL/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OutDir)/;$(SolutionDir)/../sdk/lib/$(Platform)/$(Configuration)/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)/../src/;$(SolutionDir)/../sdk/include/;$(SolutionDir)/../sdk/include/SDL/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OutDir)/;$(SolutionDir)/../sdk/lib/$(Platform)/$(Configuration)/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>/w %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_ttf.lib;portaudio.lib;libmpg123.lib;lz4.lib;glew32.lib;glu32.lib;glfw3.lib;opengl32.lib;DbgHelp.lib;FaplesFpx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>/w %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_ttf.lib;portaudio.lib;libmpg123.lib;lz4.lib;glew32.lib;glu32.lib;glfw3.lib;opengl32.lib;DbgHelp.lib;FaplesFpx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
