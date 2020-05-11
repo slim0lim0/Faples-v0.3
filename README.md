@@ -1,15 +1,9 @@
 # Faples
 Faples MMORPG Project
 
-Current Version - 0.2
+Current Version - 0.3
 
-- Character Creation
-- UI Creation
-- Map Creation
-  - Object Creation
-  - Tile Creation
+- Multiplayer to be phased out for singleplayer (may add later when resources improve and game is at a stable state).
+- Phase out database for config and local save files. Local save files will use obfuscated binary files.
 
 FPX Format (PKG4 binary writing and zl4 image compression)
-
-Net Socket Server/Client connection. State switches on packet data.
-
